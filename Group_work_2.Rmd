@@ -1,12 +1,13 @@
 ---
-html_document: default
+pdf_document: default
 author: "Huayu Wu, Jingyi Nie, Qian Wang, Yueran Hu"
 date: "2020/10/8"
-categories: R
+output: pdf_document
 bibliography: references.bib
+html_document: default
 title: Whether the support of Canadian political parties is related to the educational
   level of voters
-pdf_document: default
+categories: R
 ---
 
 We use `R`[@citeR], `tidyverse` package [@citetidyverse], `dplyr` package [@citedplyr],  `skimr` package [@citeskimr], `devtools` package [@citedevtools], `survey` package [@citesurvey] and  `visdat` package [@citevisdat] to do the analysis.
